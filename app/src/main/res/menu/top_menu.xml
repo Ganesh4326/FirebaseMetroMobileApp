@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/about_station"
+        android:title="About a station" />
+    <!--        <item-->
+    <!--            android:id="@+id/tourism"-->
+    <!--            android:title="Tourism" />-->
+    <item
+        android:id="@+id/feedback"
+        android:title="Feedback" />
+    <item
+        android:id="@+id/rewards"
+        android:title="Rewards" />
+    <item
+        android:id="@+id/orders"
+        android:title="Booking history" />
+    <item
+        android:id="@+id/yourRewards"
+        android:title="Your rewards" />
+    <item
+        android:id="@+id/share"
+        android:title="Share" />
+</menu>

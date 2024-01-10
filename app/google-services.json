@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "994434658836",
+    "project_id": "fir-met-de681",
+    "storage_bucket": "fir-met-de681.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994434658836:android:f710a0622758a9e2752d01",
+        "android_client_info": {
+          "package_name": "com.example.firebasemymetro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoJSuvBnAm1Wy2UTadskk5NP6iG8GN2ow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

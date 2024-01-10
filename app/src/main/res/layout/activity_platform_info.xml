@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Existing Views -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Platform Information"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/scrollingText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingLeft="30dp"
+        android:paddingTop="70dp"
+        android:paddingRight="30dp"
+        android:singleLine="true"
+        android:text="Your scrolling text goes here"
+        android:textColor="@color/red"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <!-- Updated TextViews -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="120dp"
+        android:text="Select a station" />
+
+    <Spinner
+        android:id="@+id/source"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/spinner_border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <Button
+        android:id="@+id/getDataBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="Get Data" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/getDataBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="#87CEEB"
+        android:gravity="center"
+        android:padding="10dp"
+        android:radius="5dp"
+        android:visibility="gone"
+        android:text="Platform 1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:fontFamily="bold"
+        android:paddingRight="60dp"
+        android:paddingLeft="60dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="TextView 2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#87CEEB"
+        android:gravity="center"
+        android:padding="10dp"
+        android:radius="5dp"
+        android:visibility="gone"
+        android:text="Platform 3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:paddingRight="60dp"
+        android:paddingLeft="60dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:textColor="@color/white"
+        android:fontFamily="bold"
+        android:visibility="gone"
+        android:text="TextView 4" />
+
+</RelativeLayout>
